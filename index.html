@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convertor Physic's units</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1 id="caption">Physics world</h1>
+    <div class="container container1">
+      <h1 class="heading">Temperature convertor</h1>
+
+      <div class="item">
+        <label for="celsius"> Celsius: </label>
+        <input
+          onchange="calculateTemp(event)"
+          type="number"
+          name="celsius"
+          id="celsius"
+          placeholder="Enter Temperature"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="fahrenheit"> Fahrenheit: </label>
+        <input
+          onchange="calculateTemp(event)"
+          type="number"
+          name="fahrenheit"
+          id="fahrenheit"
+          placeholder="Enter Temperature"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="kalvin"> Kalvin: </label>
+        <input
+          onchange="calculateTemp(event)"
+          type="number"
+          name="kalvin"
+          id="kalvin"
+          placeholder="Enter Temperature"
+          class="input"
+        />
+      </div>
+    </div>
+    <div class="container container2">
+      <h1 class="heading">Speed Convertor</h1>
+
+      <div class="item">
+        <label for="meter"> Meter/sec: </label>
+        <input
+          onchange="calculateSpeed(event)"
+          type="number"
+          name="meter"
+          id="meter"
+          placeholder="Enter speed"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="kilometer"> Kilometer/hour: </label>
+        <input
+          onchange="calculateSpeed(event)"
+          type="number"
+          name="kilometer"
+          id="kilometer"
+          placeholder="Enter speed"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="mile"> Mile/hour: </label>
+        <input
+          onchange="calculateSpeed(event)"
+          type="number"
+          name="mile"
+          id="mile"
+          placeholder="Enter speed"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="nauticMile"> Nautic mile/hour: </label>
+        <input
+          onchange="calculateSpeed(event)"
+          type="number"
+          name="nauticMile"
+          id="nauticMile"
+          placeholder="Enter speed"
+          class="input"
+        />
+      </div>
+    </div>
+
+    <div class="container container3">
+      <h1 class="heading">Weight convertor</h1>
+
+      <div class="item">
+        <label for="gram"> Gram (g): </label>
+        <input
+          onchange="calculateWeight(event)"
+          type="number"
+          name="gram"
+          id="gram"
+          placeholder="Enter Weight"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="kilogram"> Kilogram (kg): </label>
+        <input
+          onchange="calculateWeight(event)"
+          type="number"
+          name="kilogram"
+          id="kilogram"
+          placeholder="Enter Weight"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="funta"> Funta (lb): </label>
+        <input
+          onchange="calculateWeight(event)"
+          type="number"
+          name="funta"
+          id="funta"
+          placeholder="Enter Weight"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="ton"> Ton (t): </label>
+        <input
+          onchange="calculateWeight(event)"
+          type="number"
+          name="ton"
+          id="ton"
+          placeholder="Enter Weight"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="unza"> Unza(oz): </label>
+        <input
+          onchange="calculateWeight(event)"
+          type="number"
+          name="unza"
+          id="unza"
+          placeholder="Enter Weight"
+          class="input"
+        />
+      </div>
+    </div>
+    <div class="container container4">
+      <h1 class="heading">Power convertor</h1>
+
+      <div class="item">
+        <label for="wat"> Wat (w): </label>
+        <input
+          onchange="calculatePower(event)"
+          type="number"
+          name="wat"
+          id="wat"
+          placeholder="Enter Power"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="kilowat"> Kilowat (kw): </label>
+        <input
+          onchange="calculatePower(event)"
+          type="number"
+          name="kilowat"
+          id="kilowat"
+          placeholder="Enter Power"
+          class="input"
+        />
+      </div>
+      <div class="item">
+        <label for="horsePower"> Horse Power (hp): </label>
+        <input
+          onchange="calculatePower(event)"
+          type="number"
+          name="horsePower"
+          id="horsePower"
+          placeholder="Enter Power"
+          class="input"
+        />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
