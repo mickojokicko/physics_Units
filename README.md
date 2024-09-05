@@ -25,4 +25,7 @@ fizičkih jedinica, uključujući:
 3. Rezultati će biti automatski prikazani.
 
 ![APp photos](photo/temp.png)
+![APp photos](photo/speed.png)
+![APp photos](photo/weight.png)
+![APp photos](photo/power.png)
 
