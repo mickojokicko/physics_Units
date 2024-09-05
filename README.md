@@ -1,30 +1,29 @@
-# Konvertor Fizičkih Jedinica
+# Physical Units Converter
 
-Ova aplikacija omogućava jednostavnu konverziju između različitih
-fizičkih jedinica, uključujući:
+This application allows for easy conversion between different physical units, including:
 
-##LINK: https://physics-units-converting.netlify.app/
+## LINK: https://physics-units-converting.netlify.app/
 
--App je responzivna i moze se koristiti i na mobilnom telefonu!
+- The app is responsive and can be used on mobile devices!
 
-- **Težina**: Kilogrami, funte, grami, unce.
-- **Brzina**: Kilometri na sat, milje na sat, metri po sekundi.
-- **Temperatura**: Celzijus, Farenhajt, Kelvin.
-- **Snaga**: Vati,KW i konjske snage.
+- **Weight**: Kilograms, pounds, grams, ounces, tons.
+- **Speed**: Kilometers per hour, miles per hour, meters per second.
+- **Temperature**: Celsius, Fahrenheit, Kelvin.
+- **Power**: Watts, kilowatts, horsepower.
 
-## Tehnologije Korišćene
+## Technologies Used
 
-- **HTML**: Za strukturu interfejsa.
-- **CSS**: Za stilizaciju stranice.
-- **JavaScript**: Za logiku konverzije između jedinica.
+- **HTML**: For structuring the interface.
+- **CSS**: For styling the page.
+- **JavaScript**: For conversion logic between units.
 
-## Kako Koristiti Aplikaciju
+## How to Use the Application
 
-1. Izaberite kategoriju (težina, brzina, temperatura, snaga).
-2. Unesite vrednost i dobijate konvertovane vrijednosti.
-3. Rezultati će biti automatski prikazani.
+1. Select a category (weight, speed, temperature, power).
+2. Enter a value and receive converted values.
+3. Results will be displayed automatically.
 
-![APp photos](photo/temp.png)
-![APp photos](photo/speed.png)
-![APp photos](photo/weight.png)
-![APp photos](photo/power.png)
+![App photos](photo/temp.png)
+![App photos](photo/speed.png)
+![App photos](photo/weight.png)
+![App photos](photo/power.png)
