@@ -1,8 +1,7 @@
 'use strict';
 
-const inputs = document.querySelectorAll('input');
-
 function clearInput() {
+  const inputs = document.querySelectorAll('input');
   inputs.forEach(inp => (inp.value = ''));
   alert('Please, value must be greater then ZERO🚩🚩 ');
 }
@@ -33,7 +32,6 @@ function calculateTemp(event) {
   }
 }
 
-// Dohvatanje referenci na sva četiri input polja
 const meterPerSecEl = document.getElementById('meter');
 const kilometerPerHourEl = document.getElementById('kilometer');
 const milePerHourEl = document.getElementById('mile');
