@@ -7,7 +7,7 @@ fizičkih jedinica, uključujući:
 
 -App je responzivna i moze se koristiti i na mobilnom telefonu!
 
-- **Težina**: Kilogrami, funte, grami, unce.
+- **Težina**: Kilogrami, funte, grami, unce, tone.
 - **Brzina**: Kilometri na sat, milje na sat, metri po sekundi.
 - **Temperatura**: Celzijus, Farenhajt, Kelvin.
 - **Snaga**: Vati,KW i konjske snage.
@@ -25,6 +25,4 @@ fizičkih jedinica, uključujući:
 3. Rezultati će biti automatski prikazani.
 
 ![APp photos](photo/temp.png)
-![APp photos](photo/speed.png)
-![APp photos](photo/weight.png)
-![APp photos](photo/power.png)
+
